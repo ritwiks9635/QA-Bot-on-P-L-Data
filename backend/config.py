@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Load API keys from environment variables (GitHub Secrets)
 PINECONE_API_KEY = os.getenv("PINE_API_KEY")

@@ -1,7 +1,7 @@
 from pinecone import Pinecone, ServerlessSpec
 from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from config import PINE_API_KEY, PINECONE_ENVIRONMENT, INDEX_NAME
+from backend.config import PINE_API_KEY, PINECONE_ENVIRONMENT, INDEX_NAME
 
 pc = Pinecone(api_key=PINE_API_KEY, environment=PINECONE_ENVIRONMENT)
 index = pc.Index(INDEX_NAME)

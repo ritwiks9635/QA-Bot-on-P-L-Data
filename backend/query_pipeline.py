@@ -1,7 +1,7 @@
 import google.generativeai as genai
 from google.api_core import retry
 from store_embedding import index
-from config import GEMINI_API_KEY
+from backend.config import GEMINI_API_KEY
 from sentence_transformers import SentenceTransformer
 
 genai.configure(api_key=GEMINI_API_KEY)
