@@ -36,7 +36,7 @@ qa_bot_p_and_l_data/
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/YOUR-USERNAME/qa-bot.git
+git clone https://github.com/ritwiks9635/qa_bot_p_and_l_data.git
 cd qa-bot
 ```
 2️⃣ Install Dependencies
@@ -51,8 +51,8 @@ Open Gradio Link in the terminal.
 
 4️⃣ Deploy with Docker
 ```bash
-docker build -t qa-bot .
-docker run -p 7860:7860 qa-bot
+docker build -t qa_bot_p_and_l_data .
+docker run -p 7860:7860 qa_bot_p_and_l_data
 ```
 ---
 
