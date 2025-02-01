@@ -30,7 +30,7 @@ qa_bot_p_and_l_data/
 │── Dockerfile                # Containerization setup
 │── README.md                 # Documentation
 ```
-
+---
 
 ## 🛠️ Setup & Installation
 
@@ -54,11 +54,14 @@ Open Gradio Link in the terminal.
 docker build -t qa-bot .
 docker run -p 7860:7860 qa-bot
 ```
+---
 
 ## 📚Example Usage
 1️⃣ Upload a P&L Statement PDF
 2️⃣ Ask: "What are the total expenses for Q2 2023?"
 3️⃣ View retrieved financial data & AI-generated answer.
+
+---
 
 ## 🔧Technologies Used
 
@@ -69,6 +72,7 @@ docker run -p 7860:7860 qa-bot
 - **LangChain** (Chunking & Retrieval)
 - **Sentence Transformer** (Embeddings)
 
+---
 
 ## 📜License
 This project is licensed under the **MIT License**.
