@@ -13,6 +13,8 @@ A **financial document QA bot** that allows users to **upload PDFs** (e.g., Prof
 
 ## 🏗️ Project Structure
 
+
+```bash
 qa_bot_p_and_l_data/
 │── backend/
 │   ├── __init__.py           # Marks backend as a package
@@ -27,9 +29,8 @@ qa_bot_p_and_l_data/
 │── requirements.txt          # Dependencies
 │── Dockerfile                # Containerization setup
 │── README.md                 # Documentation
+```
 
-
----
 
 ## 🛠️ Setup & Installation
 
@@ -54,4 +55,20 @@ docker build -t qa-bot .
 docker run -p 7860:7860 qa-bot
 ```
 
-📚 Example Usage
+## 📚Example Usage
+1️⃣ Upload a P&L Statement PDF
+2️⃣ Ask: "What are the total expenses for Q2 2023?"
+3️⃣ View retrieved financial data & AI-generated answer.
+
+## 🔧Technologies Used
+
+- **Gradio** (Frontend)
+- **Google Gemini API** (LLM)
+- **Pinecone** (Vector Database)
+- **pdfplumber & Tabula** (PDF Processing)
+- **LangChain** (Chunking & Retrieval)
+- **Sentence Transformer** (Embeddings)
+
+
+## 📜License
+This project is licensed under the **MIT License**.
